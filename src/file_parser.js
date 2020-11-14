@@ -5,7 +5,6 @@ class FileParser {
 		var config = ini.parse(data);
 		return config;
 	}
-
 }
 
 export default FileParser;
